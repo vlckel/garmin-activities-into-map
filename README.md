@@ -7,3 +7,6 @@ Use the script from Aneel Nazareth. With all the description how to use it at fo
 - 2. the script will download all activities in TCX format. In order to extract latitude, longitude and type of sport from that, run the "process_TCXfiles" script. 
 
 - 3. "create_garmin_layers" is script which can be used for transforming all previously exported CSV files into separate layer within geodatabase in ArcGIS. Finally, it merges all the activity lines into one feature and keep the attributes at they were.
+
+
+- be aware, that the output coordinate system is WGS84, so for the proper cartographic visualization you should reprojected those data into adequate projected coordinate system
